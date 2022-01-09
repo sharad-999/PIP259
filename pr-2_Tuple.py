@@ -18,3 +18,11 @@ print(tup[1])
 # tuple of one element
 tup1=80,
 print(tup1)
+
+
+# -----------------------------------   C    ---------------------------------
+# c. Write a Python program to add an item in a tuple.
+# ----------------------------------------------------------------------------
+tup2=5,
+tup2=tup2+(6,)
+print(tup2)
