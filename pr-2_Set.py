@@ -52,3 +52,11 @@ print("intersection of A and B :",A.intersection(B))
 print("Union of A and B :",A.union(B))
 # Difference will return the Difference of two set as a new set
 print("difference of A and B :",A.difference(B))
+
+
+# --------------------------   D   ---------------------------------------------
+# d. Write a Python program to find maximum and the minimum value in a set.
+# ------------------------------------------------------------------------------
+A={2,26,56,4,3,-2,55,0}
+print("Max in set :",max(A))
+print("Min in Set :",min(A))
