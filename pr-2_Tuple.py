@@ -26,3 +26,12 @@ print(tup1)
 tup2=5,
 tup2=tup2+(6,)
 print(tup2)
+
+
+# --------------------------   D   -----------------------------------
+# d. Write a Python program to convert a tuple to a string.
+# -------------------------------------------------------------------
+
+tup = ('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's')
+str = ''.join(tup)
+print(str)
