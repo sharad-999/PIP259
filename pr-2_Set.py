@@ -37,3 +37,18 @@ else:
 #     print(set)
 # else :
 #     print(x," Not Found in set")
+
+
+# -----------------------------------   C    --------------------------------------
+# c. Write a Python program to create an intersection, Union, difference of sets.
+# ---------------------------------------------------------------------------------
+
+A={1,2,3,5,7,4,9}
+B={2,4,6,8,10}
+# intersection method is used to find intersection 
+# it will return the intersection of two set as a new set
+print("intersection of A and B :",A.intersection(B))
+# Union will return the Union of two set as a new set
+print("Union of A and B :",A.union(B))
+# Difference will return the Difference of two set as a new set
+print("difference of A and B :",A.difference(B))
